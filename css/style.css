@@ -1,0 +1,98 @@
+body {
+	min-width: 320px;
+	font-size: 16px;
+	font-family: 'Playfair Display', serif;
+	/*color: #626262;  grey */
+}
+img {
+	max-width: 100%;
+	max-height: auto;
+}
+/*a {
+	color: #b4ad9e;  light grey */ 
+}
+
+a {
+	color: #898377;
+}	
+/*a:hover {
+	color: #898377;  dark grey */ 
+}
+header .navbar-light {
+	background-color: #fff;
+}
+header .navbar-brand {
+	
+	font-size: 17px;
+	text-transform: uppercase;	
+}
+header .nav-item {
+	text-transform: uppercase;
+	margin-left: 20px;
+	font-size: 15px;
+}
+header .nav-item a::after {
+	content: '';
+	display: block;
+	width: 100%;
+	background-color: #ccc; /* grey */
+	height: 1px;
+	transform: scale(0);
+	transition: all .3s;
+}	
+header .nav-item a:hover::after {
+	transform: scale(1);
+}
+#lato {
+	font-family: "Lato";
+}
+
+
+/* carousel */
+#carouselExampleCaptions .carousel-inner img{
+	height: 390px;
+	width: 700px;
+}
+
+/* products */
+.grid .card{
+	border: 0;
+}
+.load-more {
+	padding: 1rem 2rem;
+	border-color: #626262;
+}
+.load-more span {
+	display: none;
+}
+.post-category, .link-more {
+	font-family: 'Ubuntu', sans-sarif;
+	font-size: 14px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+.post-title a {
+	color: #626262;
+}
+p {
+	line-height: 1.5rem;
+	text-align: justify;
+	
+}
+h2,h3 {
+	margin: 1rem 0;
+	font-size: 30px;
+}
+
+#img {
+	max-width: 100%;
+	height: auto;
+}
+.jumbo {
+	background-color: #f0f0f0;
+}
+/*#carouselExampleIndicators .carousel-inner img{
+	height: auto;
+	width: 700px;
+}*/
